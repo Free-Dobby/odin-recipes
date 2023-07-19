@@ -1,4 +1,46 @@
 img{
-    height: auto;
-    width: 600px;px
+    display: block;
+
+    margin-left: auto;
+    
+    margin-right: auto; 
+
+    height:auto;
+
+    width:600px;
+
+    border-style:outset;
+    border-color:#000;
+}
+    
+
+a:link{
+    color:black; 
+    text-decoration: none;
+}
+a:hover {
+    background:#52f5fe44;
+    text-decoration: underline;
+}
+a:visited{
+    color:rgb(19, 19, 19);
+}
+body{
+    background-color:#696969;
+}
+a:active{
+    color:red;
+}
+ul {
+    display: table; 
+    margin: 0 auto;
+    margin-top:10px;
+    padding-bottom:10px;
+    padding-right:5px;
+    text-align: left;
+    border-style:outset;
+    border-color:lightskyblue;
+    font-size:larger;
+    font-weight:bold;
+    font-family: 'Courier New', Courier, monospace, georgia
 }
